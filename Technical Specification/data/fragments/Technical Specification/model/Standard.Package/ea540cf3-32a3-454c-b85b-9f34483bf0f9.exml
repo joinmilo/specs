@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Blog" version="4">
+  <OBJECT>
+    <ID name="Blog" mc="Standard.Package" uid="ea540cf3-32a3-454c-b85b-9f34483bf0f9"/>
+    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Blog]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Blog" mc="Standard.Class" uid="cd77e19a-6463-4c07-989e-814920a7982f"/>
+        <COMPID name="Category" mc="Standard.Class" uid="ec3cc956-942a-4ecc-8654-ed52d6507ad5"/>
+        <COMPID name="BlogTranslateable" mc="Standard.Class" uid="73a94133-2541-4409-82ea-f646f6a09f09"/>
+        <COMPID name="CategoryTranslateable" mc="Standard.Class" uid="169220f4-6008-4eb3-9631-868237f98e6a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Blog Class diagram" mc="Standard.ClassDiagram" uid="d78c8ab4-42cb-4cc9-a735-c88f158f907c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

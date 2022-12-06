@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="users" version="4">
+  <OBJECT>
+    <ID name="users" mc="Standard.Package" uid="8140186e-6ed6-4c9e-a47a-0606b591bde5"/>
+    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[users]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmailVerification" mc="Standard.Class" uid="f3a19b5c-c43c-49f7-8bc2-bc7b297bef70"/>
+        <COMPID name="PasswordReset" mc="Standard.Class" uid="b783e4c0-5321-4133-9f69-0b0c572852f9"/>
+        <COMPID name="User" mc="Standard.Class" uid="e57ae84e-f7f0-453b-b262-27f3e951101d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="User Class diagram" mc="Standard.ClassDiagram" uid="eecafaea-74c1-4064-a04b-3f94446598e2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

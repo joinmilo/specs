@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="User" version="4">
   <OBJECT>
     <ID name="User" mc="Standard.Class" uid="e57ae84e-f7f0-453b-b262-27f3e951101d"/>
-    <PID name="users" mc="Standard.Package" uid="8140186e-6ed6-4c9e-a47a-0606b591bde5"/>
+    <PID name="User" mc="Standard.Package" uid="8140186e-6ed6-4c9e-a47a-0606b591bde5"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -291,8 +291,8 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>

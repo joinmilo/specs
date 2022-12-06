@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Media" version="4">
   <OBJECT>
-    <ID name="base" mc="Standard.Package" uid="3e1681a3-cf90-44db-8f4e-0cd06d9c0d1e"/>
+    <ID name="Media" mc="Standard.Package" uid="3e1681a3-cf90-44db-8f4e-0cd06d9c0d1e"/>
     <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,12 +9,11 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="Name"><![CDATA[Media]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="BaseEntity" mc="Standard.Class" uid="b5c3cc65-0f69-478c-bc5e-1d09f2985329"/>
         <COMPID name="Media" mc="Standard.Class" uid="8f43cfd1-5fe5-4a70-9a9f-1c559aa8f79d"/>
       </COMP>
       <COMP relation="Product">

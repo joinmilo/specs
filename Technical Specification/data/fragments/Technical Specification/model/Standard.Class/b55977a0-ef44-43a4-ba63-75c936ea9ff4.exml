@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Address" version="4">
   <OBJECT>
     <ID name="Address" mc="Standard.Class" uid="b55977a0-ef44-43a4-ba63-75c936ea9ff4"/>
-    <PID name="address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
+    <PID name="Address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

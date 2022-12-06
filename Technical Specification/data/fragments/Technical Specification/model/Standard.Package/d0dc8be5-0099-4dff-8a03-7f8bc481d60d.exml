@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="favorite" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Favorite" version="4">
   <OBJECT>
-    <ID name="favorite" mc="Standard.Package" uid="d0dc8be5-0099-4dff-8a03-7f8bc481d60d"/>
+    <ID name="Favorite" mc="Standard.Package" uid="d0dc8be5-0099-4dff-8a03-7f8bc481d60d"/>
     <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[favorite]]></ATT>
+      <ATT name="Name"><![CDATA[Favorite]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

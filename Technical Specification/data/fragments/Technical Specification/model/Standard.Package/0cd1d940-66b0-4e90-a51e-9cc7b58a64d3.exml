@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="address" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Address" version="4">
   <OBJECT>
-    <ID name="address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
+    <ID name="Address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
     <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[address]]></ATT>
+      <ATT name="Name"><![CDATA[Address]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

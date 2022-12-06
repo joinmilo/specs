@@ -25,6 +25,8 @@
         <COMPID name="Notification" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
         <COMPID name="User" mc="Standard.Package" uid="8140186e-6ed6-4c9e-a47a-0606b591bde5"/>
         <COMPID name="Video" mc="Standard.Package" uid="7ec06a48-f853-41de-a495-4261441dde5f"/>
+        <COMPID name="Organisation" mc="Standard.Package" uid="ea7b37aa-b8d3-4771-b5ca-a1f2fb666ce3"/>
+        <COMPID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

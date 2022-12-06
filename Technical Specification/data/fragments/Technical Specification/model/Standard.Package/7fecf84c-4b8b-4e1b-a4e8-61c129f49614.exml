@@ -15,13 +15,13 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Category" mc="Standard.Class" uid="c8aa9a81-5c4a-46b9-a474-dfa64fdd75a6"/>
-        <COMPID name="Organizer" mc="Standard.Class" uid="2d679f4f-cf35-41bf-bcea-7353b0fbf6aa"/>
+        <COMPID name="Contact" mc="Standard.Class" uid="2d679f4f-cf35-41bf-bcea-7353b0fbf6aa"/>
         <COMPID name="Schedule" mc="Standard.Class" uid="61989e21-1972-4d25-b855-6f0d643289c1"/>
-        <COMPID name="Event" mc="Standard.Class" uid="bedac40f-a62c-4406-a4e2-8a3428538b69"/>
         <COMPID name="EventTranslateable" mc="Standard.Class" uid="8061fee1-48a6-48a1-9d16-6d650fb90f87"/>
         <COMPID name="CategoryTranslateable" mc="Standard.Class" uid="d14936cf-7436-4b2b-b54f-306a1eb4920a"/>
         <COMPID name="EventVisitor" mc="Standard.Class" uid="45485de2-fab7-4969-aa32-5d7dc745da30"/>
         <COMPID name="Visitor" mc="Standard.Class" uid="072f625e-88e9-4f97-be84-4cfbe13d3873"/>
+        <COMPID name="Event" mc="Standard.Class" uid="bedac40f-a62c-4406-a4e2-8a3428538b69"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="event base Class diagram" mc="Standard.ClassDiagram" uid="fdf712af-4200-492d-92bd-5bc5d2e60ca5"/>

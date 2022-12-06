@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Organisation" version="4">
+  <OBJECT>
+    <ID name="Organisation" mc="Standard.Package" uid="ea7b37aa-b8d3-4771-b5ca-a1f2fb666ce3"/>
+    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Organisation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Member" mc="Standard.Class" uid="b645c949-bb50-43a7-8f32-17d291316182"/>
+        <COMPID name="OrganisationTranslateable" mc="Standard.Class" uid="df0a8702-e933-4f2c-babe-74c1ec006382"/>
+        <COMPID name="Organisation" mc="Standard.Class" uid="e3ebc8a7-2472-4fd5-a5ff-64394119184a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="organisation base Class diagram" mc="Standard.ClassDiagram" uid="a4cc3d4f-4489-4a6e-b019-a9ef89d7a4bb"/>
+        <COMPID name="organisation relation Class diagram" mc="Standard.ClassDiagram" uid="7e149a5c-3d1f-4419-8da5-70d3033bddf3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

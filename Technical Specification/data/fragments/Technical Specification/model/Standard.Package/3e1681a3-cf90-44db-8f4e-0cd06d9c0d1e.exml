@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Media" version="4">
   <OBJECT>
     <ID name="Media" mc="Standard.Package" uid="3e1681a3-cf90-44db-8f4e-0cd06d9c0d1e"/>
-    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <PID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

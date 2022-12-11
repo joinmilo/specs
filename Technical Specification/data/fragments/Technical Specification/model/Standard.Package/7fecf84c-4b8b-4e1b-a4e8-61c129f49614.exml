@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Event" version="4">
   <OBJECT>
     <ID name="Event" mc="Standard.Package" uid="7fecf84c-4b8b-4e1b-a4e8-61c129f49614"/>
-    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <PID name="Main" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -14,14 +14,19 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Category" mc="Standard.Class" uid="c8aa9a81-5c4a-46b9-a474-dfa64fdd75a6"/>
-        <COMPID name="Contact" mc="Standard.Class" uid="2d679f4f-cf35-41bf-bcea-7353b0fbf6aa"/>
+        <COMPID name="EventCategory" mc="Standard.Class" uid="c8aa9a81-5c4a-46b9-a474-dfa64fdd75a6"/>
         <COMPID name="Schedule" mc="Standard.Class" uid="61989e21-1972-4d25-b855-6f0d643289c1"/>
         <COMPID name="EventTranslateable" mc="Standard.Class" uid="8061fee1-48a6-48a1-9d16-6d650fb90f87"/>
-        <COMPID name="CategoryTranslateable" mc="Standard.Class" uid="d14936cf-7436-4b2b-b54f-306a1eb4920a"/>
+        <COMPID name="EventCategoryTranslateable" mc="Standard.Class" uid="d14936cf-7436-4b2b-b54f-306a1eb4920a"/>
         <COMPID name="EventVisitor" mc="Standard.Class" uid="45485de2-fab7-4969-aa32-5d7dc745da30"/>
-        <COMPID name="Visitor" mc="Standard.Class" uid="072f625e-88e9-4f97-be84-4cfbe13d3873"/>
         <COMPID name="Event" mc="Standard.Class" uid="bedac40f-a62c-4406-a4e2-8a3428538b69"/>
+        <COMPID name="EventTargetGroup" mc="Standard.Class" uid="952b2cfe-49ac-45b4-b177-24b9e9be7dcc"/>
+        <COMPID name="TargetGroupTranslatable" mc="Standard.Class" uid="0fe528ca-3af6-4511-931f-02b36dd5ef1c"/>
+        <COMPID name="EventRating" mc="Standard.Class" uid="ff5d55d3-7bb3-4ad9-9cf9-305e870cbcde"/>
+        <COMPID name="EventComment" mc="Standard.Class" uid="a3373500-1727-49d5-8932-31a69c6b218f"/>
+        <COMPID name="EventCommentTranslatable" mc="Standard.Class" uid="a81f39a9-823b-42e4-988c-132ffafa2e1e"/>
+        <COMPID name="Attendee" mc="Standard.Class" uid="6bd2d90f-c600-4006-b2b8-60abe8c1222a"/>
+        <COMPID name="AttendeeConfiguration" mc="Standard.Class" uid="f74c0ef7-1e97-40cf-a875-0e716e879534"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="event base Class diagram" mc="Standard.ClassDiagram" uid="fdf712af-4200-492d-92bd-5bc5d2e60ca5"/>

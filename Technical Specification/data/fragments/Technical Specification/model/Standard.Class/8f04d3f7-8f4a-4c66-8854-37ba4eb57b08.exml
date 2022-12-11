@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rating" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QuestionOption" version="4">
   <OBJECT>
-    <ID name="Rating" mc="Standard.Class" uid="51401d7e-656b-4269-b474-9d01a2fc7fde"/>
-    <PID name="Feedback" mc="Standard.Package" uid="72f73b75-7d89-4202-aaca-58ccdcd36bde"/>
+    <ID name="QuestionOption" mc="Standard.Class" uid="8f04d3f7-8f4a-4c66-8854-37ba4eb57b08"/>
+    <PID name="Survey" mc="Standard.Package" uid="1a9ee35d-d41f-4873-ac5c-41e33c728527"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Rating]]></ATT>
+      <ATT name="Name"><![CDATA[QuestionOption]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="rating" mc="Standard.Attribute" uid="eeed2496-5907-4133-bcf5-2b9fa5d6f58c"/>
+          <ID name="order" mc="Standard.Attribute" uid="0f6551e6-7f78-4b94-aff0-7815c90c786e"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[rating]]></ATT>
+            <ATT name="Name"><![CDATA[order]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -43,7 +43,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="user" mc="Standard.AssociationEnd" uid="cea37855-93c0-427c-9f92-2b25c99374c0"/>
+          <ID name="question" mc="Standard.AssociationEnd" uid="75df0beb-ae77-42d4-af28-0b9f89c29e87"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -56,16 +56,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="Name"><![CDATA[question]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="User" mc="Standard.Class" uid="e57ae84e-f7f0-453b-b262-27f3e951101d"/>
+              <ID name="Question" mc="Standard.Class" uid="459a4404-89da-43ae-b4a6-fed79fa74aa6"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="432f90ae-547d-466e-b162-5c4850fa68cb"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="9996f011-d6a1-491b-ac33-de1bbb4c278d"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -83,11 +83,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="user" mc="Standard.AssociationEnd" uid="cea37855-93c0-427c-9f92-2b25c99374c0"/>
+                    <COMPID name="question" mc="Standard.AssociationEnd" uid="75df0beb-ae77-42d4-af28-0b9f89c29e87"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="bc22ac8b-9932-4bae-a956-553634fc8590"/>
+                      <ID name="" mc="Standard.Association" uid="35caa504-e975-4e91-a252-16c6c74d5a1b"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,7 +99,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="bc22ac8b-9932-4bae-a956-553634fc8590"/>
+              <COMPID name="" mc="Standard.Association" uid="35caa504-e975-4e91-a252-16c6c74d5a1b"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

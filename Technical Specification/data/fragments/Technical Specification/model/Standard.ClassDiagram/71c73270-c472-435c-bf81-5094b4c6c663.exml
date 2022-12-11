@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Visitor class diagram" version="4">
+  <OBJECT>
+    <ID name="Visitor class diagram" mc="Standard.ClassDiagram" uid="71c73270-c472-435c-bf81-5094b4c6c663"/>
+    <PID name="Visitor" mc="Standard.Package" uid="77280793-d02b-418f-814e-52733a1ac6c8"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO4zAQ/RUr73UvCe2uFIogQRUiUNQuSPuEHHsoBseubBeav8duUpaWbRUkBC88+TI+Z86Mz8RHy0KgJ9CGK3kYdHEnQEfDeJw/ALWIM3cVIFvO4TBQeoYLxUBwhReFwMYSyx8ZJzNNCgyMW6UxCChAWlNF6To6Kqarc1qdA1SQB6VvX/N2gmF8pdUctC2RJIVLJ0ipFjYllrjYDRELqHXIhRBBexi314B30KktBQQbVfT+V8VanfHvDaZKA66wDfQlxFDCgK2TnS7tBO4aZrl0FDUSwdKm+ZnTuNr6zUWFRCFebhXarkraV7wGQSwwp2Wrbxf+Cj35G98iIhnRDCeCGFN/Cxp06SDsDTotGg16rSg8oK387le3ddD5HeUR7dN+P9zfesdmz6V6lhnJQWwpmFrN5SwY3nDjzYKoz43q/sTt1dO9pSkBZzJRxVw5AvcxO/gbUCX3XDANniHjxje0XnYiMi4fTfPnJ7NUk2cnJyMl6E0zhvvM+DpBrMIbLDyDG6ENwq+ZoI+hvtd6nO2wQzrC2fHf08ntyXFyPpqMry/Tz3FIg2l8+2f/3PPGC9GPF77FC3/GV59tgp2hFxGkkTg=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Visitor class diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="22785824-9d83-4034-9391-0b508c95ce41"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

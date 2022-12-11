@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Survey" version="4">
+  <OBJECT>
+    <ID name="Survey" mc="Standard.Package" uid="1a9ee35d-d41f-4873-ac5c-41e33c728527"/>
+    <PID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Survey]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Survey" mc="Standard.Class" uid="831cbc01-61f7-439a-a408-8b4b36e91931"/>
+        <COMPID name="SurveyState" mc="Standard.Class" uid="69f134d9-8c86-461b-a79f-f00bd1748242"/>
+        <COMPID name="Question" mc="Standard.Class" uid="459a4404-89da-43ae-b4a6-fed79fa74aa6"/>
+        <COMPID name="SurveyTranslatable" mc="Standard.Class" uid="1828bc19-a212-4b54-9fa6-76e7c8603055"/>
+        <COMPID name="QuestionOption" mc="Standard.Class" uid="8f04d3f7-8f4a-4c66-8854-37ba4eb57b08"/>
+        <COMPID name="QuestionOptionTranslatable" mc="Standard.Class" uid="384504c3-8685-4a77-88d5-278bfe54780d"/>
+        <COMPID name="QuestionType" mc="Standard.Class" uid="608c0f94-6d62-4397-a3ad-e733a6d147ca"/>
+        <COMPID name="QuestionTranslatable" mc="Standard.Class" uid="5501759e-750b-4b67-a120-fd915e7321fa"/>
+        <COMPID name="Assignment" mc="Standard.Class" uid="2146591b-b1a2-4be8-ad98-16d633cfab80"/>
+        <COMPID name="SurveyResult" mc="Standard.Class" uid="6d2fee68-32c9-4aad-934d-bf1b32ce8daa"/>
+        <COMPID name="Answer" mc="Standard.Class" uid="29fa856c-0725-4af2-995c-0657cfd62da6"/>
+        <COMPID name="SurveyResultTranslatable" mc="Standard.Class" uid="0805f8f9-280c-4e4d-ab80-1c91d1de3fee"/>
+        <COMPID name="AnswerTranslatable" mc="Standard.Class" uid="a324dd39-ceeb-4e7a-a7e2-6f2afe8b92c0"/>
+        <COMPID name="SurveyVisitor" mc="Standard.Class" uid="d7920001-1bfb-4827-aaef-f35d48fcc9fc"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Survey class diagram" mc="Standard.ClassDiagram" uid="49ef87fb-31f6-4a6d-8a23-4ac9d67aa39d"/>
+        <COMPID name="Survey translatable class diagram" mc="Standard.ClassDiagram" uid="dce86a2f-1b1d-4811-933e-a15d3404f142"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

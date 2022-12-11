@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CMS" version="4">
+  <OBJECT>
+    <ID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
+    <PID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CMS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Menu" mc="Standard.Class" uid="3b01e0c0-f7ca-45e9-b981-7f92c3a03817"/>
+        <COMPID name="Module" mc="Standard.Class" uid="5449fbf4-0652-4b39-87d2-f27b2f5c6e6c"/>
+        <COMPID name="Page" mc="Standard.Class" uid="e8d0d451-0af5-435d-8e69-ecff22eb37b4"/>
+        <COMPID name="PageTranslatable" mc="Standard.Class" uid="377d7a62-1179-46b6-96f3-f6adcdd06926"/>
+        <COMPID name="MenuTranslatable" mc="Standard.Class" uid="0bfb08eb-5754-4677-8fa1-c285e421bb9a"/>
+        <COMPID name="MenuItem" mc="Standard.Class" uid="393fd512-d30c-49e8-b93c-7c9edc330966"/>
+        <COMPID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
+        <COMPID name="ModuleTranslatable" mc="Standard.Class" uid="adeaf60d-0288-4ff8-9a0e-e11012f347ee"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CMS class diagram" mc="Standard.ClassDiagram" uid="92f47040-afea-4da6-829e-6750ae9da975"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

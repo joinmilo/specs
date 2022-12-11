@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Visitor" version="4">
+  <OBJECT>
+    <ID name="Visitor" mc="Standard.Package" uid="77280793-d02b-418f-814e-52733a1ac6c8"/>
+    <PID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Visitor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Visitor" mc="Standard.Class" uid="072f625e-88e9-4f97-be84-4cfbe13d3873"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Visitor class diagram" mc="Standard.ClassDiagram" uid="71c73270-c472-435c-bf81-5094b4c6c663"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

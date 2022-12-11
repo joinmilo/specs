@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Address" version="4">
   <OBJECT>
     <ID name="Address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
-    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <PID name="Shared" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Address" mc="Standard.Class" uid="b55977a0-ef44-43a4-ba63-75c936ea9ff4"/>
+        <COMPID name="Suburb" mc="Standard.Class" uid="643f19f6-aeae-4065-9538-3407e0fe4580"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="address Class diagram" mc="Standard.ClassDiagram" uid="2f979994-c728-4dea-ab02-3c482f00d830"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SocialMedia" version="4">
+  <OBJECT>
+    <ID name="SocialMedia" mc="Standard.Package" uid="a72ea4da-78c2-4985-9758-8b5b190a3288"/>
+    <PID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SocialMedia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SocialMedia" mc="Standard.Class" uid="0535d325-15b7-4f0a-979f-5ab6205ca0a1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="SocialMedia class diagram" mc="Standard.ClassDiagram" uid="58c75d57-de3a-4960-9693-2eecfbe29e45"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

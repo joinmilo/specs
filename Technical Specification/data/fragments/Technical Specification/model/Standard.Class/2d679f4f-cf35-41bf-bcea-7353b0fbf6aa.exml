@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Contact" version="4">
   <OBJECT>
     <ID name="Contact" mc="Standard.Class" uid="2d679f4f-cf35-41bf-bcea-7353b0fbf6aa"/>
-    <PID name="Event" mc="Standard.Package" uid="7fecf84c-4b8b-4e1b-a4e8-61c129f49614"/>
+    <PID name="Contact" mc="Standard.Package" uid="d4effe5a-307e-42b8-b426-e6a04a7425b5"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Organisation" version="4">
   <OBJECT>
     <ID name="Organisation" mc="Standard.Package" uid="ea7b37aa-b8d3-4771-b5ca-a1f2fb666ce3"/>
-    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <PID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -17,10 +17,14 @@
         <COMPID name="Member" mc="Standard.Class" uid="b645c949-bb50-43a7-8f32-17d291316182"/>
         <COMPID name="OrganisationTranslateable" mc="Standard.Class" uid="df0a8702-e933-4f2c-babe-74c1ec006382"/>
         <COMPID name="Organisation" mc="Standard.Class" uid="e3ebc8a7-2472-4fd5-a5ff-64394119184a"/>
+        <COMPID name="OrganisationVisitor" mc="Standard.Class" uid="a257d850-eae8-4a64-a760-3cccb44e72a7"/>
+        <COMPID name="OrganisationComment" mc="Standard.Class" uid="2a4387b4-885b-4ac5-b491-f2bd50fd051b"/>
+        <COMPID name="OrganisationCommentTranslatable" mc="Standard.Class" uid="51a22e94-3f73-4ccf-bbc1-8b15dd16498e"/>
+        <COMPID name="OrganisationRating" mc="Standard.Class" uid="2aab981e-4b8e-4db1-b154-405dd5944ba8"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="organisation base Class diagram" mc="Standard.ClassDiagram" uid="a4cc3d4f-4489-4a6e-b019-a9ef89d7a4bb"/>
-        <COMPID name="organisation relation Class diagram" mc="Standard.ClassDiagram" uid="7e149a5c-3d1f-4419-8da5-70d3033bddf3"/>
+        <COMPID name="Organisation base class diagram" mc="Standard.ClassDiagram" uid="59a4204c-1ff4-4a85-b2c7-2181a0b881c4"/>
+        <COMPID name="Organisation relation class diagram" mc="Standard.ClassDiagram" uid="c001040f-7157-4e33-bc4e-36e4241b07b7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

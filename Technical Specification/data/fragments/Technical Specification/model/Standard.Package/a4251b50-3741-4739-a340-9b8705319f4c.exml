@@ -14,19 +14,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
-        <COMPID name="Media" mc="Standard.Package" uid="3e1681a3-cf90-44db-8f4e-0cd06d9c0d1e"/>
-        <COMPID name="Blog" mc="Standard.Package" uid="ea540cf3-32a3-454c-b85b-9f34483bf0f9"/>
-        <COMPID name="Blogger" mc="Standard.Package" uid="627a74e3-c2e3-469f-87a6-7df70cba0a75"/>
-        <COMPID name="Event" mc="Standard.Package" uid="7fecf84c-4b8b-4e1b-a4e8-61c129f49614"/>
-        <COMPID name="Feedback" mc="Standard.Package" uid="72f73b75-7d89-4202-aaca-58ccdcd36bde"/>
-        <COMPID name="Favorite" mc="Standard.Package" uid="d0dc8be5-0099-4dff-8a03-7f8bc481d60d"/>
-        <COMPID name="Language" mc="Standard.Package" uid="f183dd18-42be-4a24-8c6a-1d5bcd11e0f4"/>
-        <COMPID name="Notification" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
-        <COMPID name="User" mc="Standard.Package" uid="8140186e-6ed6-4c9e-a47a-0606b591bde5"/>
-        <COMPID name="Video" mc="Standard.Package" uid="7ec06a48-f853-41de-a495-4261441dde5f"/>
-        <COMPID name="Organisation" mc="Standard.Package" uid="ea7b37aa-b8d3-4771-b5ca-a1f2fb666ce3"/>
-        <COMPID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
+        <COMPID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
+        <COMPID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+        <COMPID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UserContext" version="4">
+  <OBJECT>
+    <ID name="UserContext" mc="Standard.Package" uid="a491c79f-9569-4b90-a063-f46d3ddfeb37"/>
+    <PID name="Shared" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UserContext]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Friend" mc="Standard.Class" uid="6e3bcb38-a207-4486-9ecf-d26ef060789e"/>
+        <COMPID name="UserContext" mc="Standard.Class" uid="145e37b0-bff5-4bd2-a268-b975a74aaed1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="UserContext base class diagram" mc="Standard.ClassDiagram" uid="3e57c40e-0fb3-43f7-9cde-8a0d18a44af0"/>
+        <COMPID name="UserContext event Class diagram" mc="Standard.ClassDiagram" uid="9f094f01-ab61-4c03-bf2c-a31141de07a4"/>
+        <COMPID name="UserContext organisation Class diagram" mc="Standard.ClassDiagram" uid="17cfa170-1d66-4408-808a-76ab97aaa9b7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

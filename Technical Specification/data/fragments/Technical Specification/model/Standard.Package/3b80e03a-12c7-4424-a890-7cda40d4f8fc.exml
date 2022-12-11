@@ -1,23 +1,28 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Notification" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Messaging" version="4">
   <OBJECT>
-    <ID name="Notification" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
-    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ID name="Messaging" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
+    <PID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Notification]]></ATT>
+      <ATT name="Name"><![CDATA[Messaging]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Notifications" mc="Standard.Class" uid="7f2387dd-9de5-4cae-b333-30ad1be171b2"/>
+        <COMPID name="Channel" mc="Standard.Class" uid="e3d29196-4797-4eec-8355-bce57180f1c9"/>
+        <COMPID name="MessageDefinition" mc="Standard.Class" uid="60880350-d4d6-4a34-b252-700abcf234dc"/>
+        <COMPID name="MessageTemplate" mc="Standard.Class" uid="229ff143-fad1-4f43-9aa8-f9cdbd25d5b9"/>
+        <COMPID name="MessageTemplateTranslatable" mc="Standard.Class" uid="8b261f5f-0d61-47d4-a74d-3a93d9b1d9b0"/>
+        <COMPID name="Subscription" mc="Standard.Class" uid="30ffe7a9-e31b-4dc8-99d0-1a4c8ec5070e"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Notifications Class diagram" mc="Standard.ClassDiagram" uid="4dd3772f-5157-4140-a574-d13a3f7c0790"/>
+        <COMPID name="Messaging class diagram" mc="Standard.ClassDiagram" uid="4dd3772f-5157-4140-a574-d13a3f7c0790"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

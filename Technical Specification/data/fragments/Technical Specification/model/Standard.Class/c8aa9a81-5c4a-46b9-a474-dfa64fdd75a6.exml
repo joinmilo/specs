@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Category" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EventCategory" version="4">
   <OBJECT>
-    <ID name="Category" mc="Standard.Class" uid="c8aa9a81-5c4a-46b9-a474-dfa64fdd75a6"/>
+    <ID name="EventCategory" mc="Standard.Class" uid="c8aa9a81-5c4a-46b9-a474-dfa64fdd75a6"/>
     <PID name="Event" mc="Standard.Package" uid="7fecf84c-4b8b-4e1b-a4e8-61c129f49614"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Category]]></ATT>
+      <ATT name="Name"><![CDATA[EventCategory]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

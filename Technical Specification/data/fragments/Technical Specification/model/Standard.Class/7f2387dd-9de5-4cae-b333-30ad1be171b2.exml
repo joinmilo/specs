@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Notifications" version="4">
   <OBJECT>
     <ID name="Notifications" mc="Standard.Class" uid="7f2387dd-9de5-4cae-b333-30ad1be171b2"/>
-    <PID name="Notifications" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
+    <PID name="Notification" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

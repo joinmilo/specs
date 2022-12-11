@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Base" version="4">
+  <OBJECT>
+    <ID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Address" mc="Standard.Package" uid="0cd1d940-66b0-4e90-a51e-9cc7b58a64d3"/>
+        <COMPID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
+        <COMPID name="Contact" mc="Standard.Package" uid="d4effe5a-307e-42b8-b426-e6a04a7425b5"/>
+        <COMPID name="SocialMedia" mc="Standard.Package" uid="a72ea4da-78c2-4985-9758-8b5b190a3288"/>
+        <COMPID name="UserContext" mc="Standard.Package" uid="a491c79f-9569-4b90-a063-f46d3ddfeb37"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

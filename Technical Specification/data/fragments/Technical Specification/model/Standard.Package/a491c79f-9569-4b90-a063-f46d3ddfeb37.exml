@@ -16,6 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Friend" mc="Standard.Class" uid="6e3bcb38-a207-4486-9ecf-d26ef060789e"/>
         <COMPID name="UserContext" mc="Standard.Class" uid="145e37b0-bff5-4bd2-a268-b975a74aaed1"/>
+        <COMPID name="UserContextTranslatable" mc="Standard.Class" uid="afb1ad62-0c4b-4267-99c3-9324cdde3b89"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="UserContext base class diagram" mc="Standard.ClassDiagram" uid="3e57c40e-0fb3-43f7-9cde-8a0d18a44af0"/>

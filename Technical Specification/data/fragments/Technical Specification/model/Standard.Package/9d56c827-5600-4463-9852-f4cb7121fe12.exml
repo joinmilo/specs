@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Form" version="4">
+  <OBJECT>
+    <ID name="Form" mc="Standard.Package" uid="9d56c827-5600-4463-9852-f4cb7121fe12"/>
+    <PID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Form]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UserFormTemplate" mc="Standard.Class" uid="da75997a-bdc5-4ac9-99e4-2bc7b0c33441"/>
+        <COMPID name="FormTemplate" mc="Standard.Class" uid="4ebed464-8572-4619-9015-3686c8d53eab"/>
+        <COMPID name="FormTemplateType" mc="Standard.Class" uid="0621fed1-231c-4c41-b634-50639636d1b9"/>
+        <COMPID name="UserFormTemplateTranslatable" mc="Standard.Class" uid="205a3d2c-b53a-49ba-a87a-ce1550ad63a9"/>
+        <COMPID name="FormTemplateTypeTranslatable" mc="Standard.Class" uid="e276738d-3265-465f-bd38-9881014487d3"/>
+        <COMPID name="FormTemplateTranslatable" mc="Standard.Class" uid="4ffeaa24-4b8e-4329-ba2f-f8f27e567daa"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Form class diagram" mc="Standard.ClassDiagram" uid="54a30d2a-656a-41f0-a096-4aa866109a63"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

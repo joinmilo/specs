@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Contest" version="4">
+  <OBJECT>
+    <ID name="Contest" mc="Standard.Package" uid="b5c9c28f-6f75-4f6b-8009-02d1bf2eff4d"/>
+    <PID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Contest]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Contest" mc="Standard.Class" uid="40034b52-6156-448e-a2c4-2482dee92f0b"/>
+        <COMPID name="ContestTranslatable" mc="Standard.Class" uid="924a091c-9505-4a20-bfa4-a506c368a03a"/>
+        <COMPID name="ContestParticipation" mc="Standard.Class" uid="001a5d3d-8d79-49ed-8baf-cdd96960356c"/>
+        <COMPID name="ContestType" mc="Standard.Class" uid="3b32a5db-5d5a-49df-8630-98208ee96259"/>
+        <COMPID name="ContestTypeTranslatable" mc="Standard.Class" uid="fa201de7-ff35-400c-a1bc-ca1faf1f8211"/>
+        <COMPID name="ContestParticipationTranslatable" mc="Standard.Class" uid="230c6011-1338-4dbe-be39-31a3b54b9485"/>
+        <COMPID name="ContestVote" mc="Standard.Class" uid="cb99609f-5d21-4d56-b288-56e23ca7ef6e"/>
+        <COMPID name="ContestState" mc="Standard.Class" uid="9f49e2dd-7d9e-4064-9978-2385c17ec2be"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Contest class diagram" mc="Standard.ClassDiagram" uid="122fccbe-4394-49a0-9fd3-832fde68c7c3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

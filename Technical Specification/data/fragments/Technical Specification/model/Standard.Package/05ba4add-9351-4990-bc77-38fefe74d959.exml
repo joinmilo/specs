@@ -15,10 +15,12 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Article" mc="Standard.Package" uid="ea540cf3-32a3-454c-b85b-9f34483bf0f9"/>
+        <COMPID name="Contest" mc="Standard.Package" uid="b5c9c28f-6f75-4f6b-8009-02d1bf2eff4d"/>
         <COMPID name="Event" mc="Standard.Package" uid="7fecf84c-4b8b-4e1b-a4e8-61c129f49614"/>
+        <COMPID name="Form" mc="Standard.Package" uid="9d56c827-5600-4463-9852-f4cb7121fe12"/>
+        <COMPID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
         <COMPID name="Organisation" mc="Standard.Package" uid="ea7b37aa-b8d3-4771-b5ca-a1f2fb666ce3"/>
         <COMPID name="Survey" mc="Standard.Package" uid="1a9ee35d-d41f-4873-ac5c-41e33c728527"/>
-        <COMPID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

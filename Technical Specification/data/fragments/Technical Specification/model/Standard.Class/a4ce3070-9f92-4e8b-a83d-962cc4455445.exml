@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QuestionType" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ThemeVariable" version="4">
   <OBJECT>
-    <ID name="QuestionType" mc="Standard.Class" uid="608c0f94-6d62-4397-a3ad-e733a6d147ca"/>
-    <PID name="Survey" mc="Standard.Package" uid="1a9ee35d-d41f-4873-ac5c-41e33c728527"/>
+    <ID name="ThemeVariable" mc="Standard.Class" uid="a4ce3070-9f92-4e8b-a83d-962cc4455445"/>
+    <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[QuestionType]]></ATT>
+      <ATT name="Name"><![CDATA[ThemeVariable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="key" mc="Standard.Attribute" uid="c84315eb-5e2d-4b17-84d0-9ae0e78fb592"/>
+          <ID name="key" mc="Standard.Attribute" uid="bdb31d4e-fa87-4b96-9b5b-b9acffc44c4f"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -40,23 +40,27 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="Note" mc="Infrastructure.Note" uid="356ffa2f-37ea-447d-b29c-6b0784d33777"/>
+          <ID name="value" mc="Standard.Attribute" uid="96b419dc-95be-4b51-ad7d-34417b56304e"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[MULTI
-RANGE
-SELECT
-TEXT
-CHECK_BOX]]></ATT>
-            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[value]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

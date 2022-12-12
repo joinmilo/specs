@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UserContext" version="4">
   <OBJECT>
     <ID name="UserContext" mc="Standard.Package" uid="a491c79f-9569-4b90-a063-f46d3ddfeb37"/>
-    <PID name="Shared" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <PID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -21,6 +21,7 @@
         <COMPID name="UserContext base class diagram" mc="Standard.ClassDiagram" uid="3e57c40e-0fb3-43f7-9cde-8a0d18a44af0"/>
         <COMPID name="UserContext event Class diagram" mc="Standard.ClassDiagram" uid="9f094f01-ab61-4c03-bf2c-a31141de07a4"/>
         <COMPID name="UserContext organisation Class diagram" mc="Standard.ClassDiagram" uid="17cfa170-1d66-4408-808a-76ab97aaa9b7"/>
+        <COMPID name="UserContext article class diagram" mc="Standard.ClassDiagram" uid="899d90f8-6e88-4199-a7d5-b756eddf0ae2"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

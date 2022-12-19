@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Developer" version="4">
+  <OBJECT>
+    <ID name="Developer" mc="Standard.Package" uid="6b19c52b-5fe6-482c-a765-20cb0d81c146"/>
+    <PID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Developer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Developer" mc="Standard.Class" uid="41a5d3da-b6a7-4a0d-a481-80bfae9d0ddf"/>
+        <COMPID name="Inquiry" mc="Standard.Class" uid="db5c6e5f-a0c8-481a-9c28-ab65f79fe6a1"/>
+        <COMPID name="InquiryCategory" mc="Standard.Class" uid="1556f079-b92d-4b78-928c-d9a7da35c164"/>
+        <COMPID name="InquiryCategoryTranslatable" mc="Standard.Class" uid="ff4e66a4-b06c-472e-bc7e-f4b46b119631"/>
+        <COMPID name="DeveloperTranslatable" mc="Standard.Class" uid="af8055a5-c0a6-4df7-b6e8-7f43d20278fd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Developer Class diagram" mc="Standard.ClassDiagram" uid="b88ec007-71f4-4989-aee6-da91fabd8a85"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

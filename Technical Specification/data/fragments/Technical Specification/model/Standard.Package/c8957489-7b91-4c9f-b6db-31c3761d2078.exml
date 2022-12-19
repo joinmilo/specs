@@ -19,6 +19,7 @@
         <COMPID name="Contact" mc="Standard.Package" uid="d4effe5a-307e-42b8-b426-e6a04a7425b5"/>
         <COMPID name="SocialMedia" mc="Standard.Package" uid="a72ea4da-78c2-4985-9758-8b5b190a3288"/>
         <COMPID name="UserContext" mc="Standard.Package" uid="a491c79f-9569-4b90-a063-f46d3ddfeb37"/>
+        <COMPID name="Developer" mc="Standard.Package" uid="6b19c52b-5fe6-482c-a765-20cb0d81c146"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

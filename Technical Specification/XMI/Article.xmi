@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_7dv4IHvVEe2fev0BbiR-Ww/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/JavaExtensions/_7dv4IHvVEe2fev0BbiR-Ww/0 JavaExtensions.profile.xmi#_7e2rZ3vVEe2fev0BbiR-Ww">
+  <uml:Model xmi:id="_7dZS0HvVEe2fev0BbiR-Ww" name="Article">
+    <eAnnotations xmi:id="_7dZ54HvVEe2fev0BbiR-Ww" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_7dZ54XvVEe2fev0BbiR-Ww" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_7dZ54nvVEe2fev0BbiR-Ww" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ543vVEe2fev0BbiR-Ww" name="Article">
+      <ownedAttribute xmi:id="_7dZ55HvVEe2fev0BbiR-Ww" name="category" visibility="public" type="_7dZ583vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ563vVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ55XvVEe2fev0BbiR-Ww" name="publicAuthor" visibility="public" type="_7dZ6DHvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ573vVEe2fev0BbiR-Ww">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ55nvVEe2fev0BbiR-Ww"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ553vVEe2fev0BbiR-Ww" name="slug?" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ56HvVEe2fev0BbiR-Ww" name="seoDescription?" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ56XvVEe2fev0BbiR-Ww" name="approved" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ56nvVEe2fev0BbiR-Ww" name="sponsored" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ563vVEe2fev0BbiR-Ww" memberEnd="_7dZ55HvVEe2fev0BbiR-Ww _7dZ57HvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ57HvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ563vVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ57XvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ57nvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ573vVEe2fev0BbiR-Ww" memberEnd="_7dZ55XvVEe2fev0BbiR-Ww _7dZ58HvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ58HvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ573vVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ58XvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ58nvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ583vVEe2fev0BbiR-Ww" name="ArticleCategory">
+      <ownedAttribute xmi:id="_7dZ59HvVEe2fev0BbiR-Ww" name="icon" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ59XvVEe2fev0BbiR-Ww" name="color" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ59nvVEe2fev0BbiR-Ww" name="ArticleTranslateable">
+      <ownedAttribute xmi:id="_7dZ593vVEe2fev0BbiR-Ww" name="parent" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ5-nvVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ5-HvVEe2fev0BbiR-Ww" name="content?" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ5-XvVEe2fev0BbiR-Ww" name="title?" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ5-nvVEe2fev0BbiR-Ww" memberEnd="_7dZ593vVEe2fev0BbiR-Ww _7dZ5-3vVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ5-3vVEe2fev0BbiR-Ww" visibility="public" type="_7dZ59nvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ5-nvVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ5_HvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ5_XvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ5_nvVEe2fev0BbiR-Ww" name="ArticleCategoryTranslateable">
+      <ownedAttribute xmi:id="_7dZ5_3vVEe2fev0BbiR-Ww" name="parent" visibility="public" type="_7dZ583vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6AXvVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ6AHvVEe2fev0BbiR-Ww" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ6AXvVEe2fev0BbiR-Ww" memberEnd="_7dZ5_3vVEe2fev0BbiR-Ww _7dZ6AnvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ6AnvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ5_nvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6AXvVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ6A3vVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ6BHvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ6BXvVEe2fev0BbiR-Ww" name="ArticleComment">
+      <ownedAttribute xmi:id="_7dZ6BnvVEe2fev0BbiR-Ww" name="article" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6CHvVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ6B3vVEe2fev0BbiR-Ww" name="approved" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ6CHvVEe2fev0BbiR-Ww" memberEnd="_7dZ6BnvVEe2fev0BbiR-Ww _7dZ6CXvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ6CXvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ6BXvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6CHvVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ6CnvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ6C3vVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ6DHvVEe2fev0BbiR-Ww" name="PublicAuthor">
+      <ownedAttribute xmi:id="_7dZ6DXvVEe2fev0BbiR-Ww" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ6DnvVEe2fev0BbiR-Ww" name="mail" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7dZ6D3vVEe2fev0BbiR-Ww" name="phone?" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ6EHvVEe2fev0BbiR-Ww" name="ArticleCommentTranslatable">
+      <ownedAttribute xmi:id="_7dZ6EXvVEe2fev0BbiR-Ww" name="parent" visibility="public" type="_7dZ6BXvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6E3vVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ6EnvVEe2fev0BbiR-Ww" name="content" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ6E3vVEe2fev0BbiR-Ww" memberEnd="_7dZ6EXvVEe2fev0BbiR-Ww _7dZ6FHvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ6FHvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ6EHvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6E3vVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ6FXvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ6FnvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ6F3vVEe2fev0BbiR-Ww" name="ArticleRating">
+      <ownedAttribute xmi:id="_7dZ6GHvVEe2fev0BbiR-Ww" name="article" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6GnvVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ6GXvVEe2fev0BbiR-Ww" name="score" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ6GnvVEe2fev0BbiR-Ww" memberEnd="_7dZ6GHvVEe2fev0BbiR-Ww _7dZ6G3vVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ6G3vVEe2fev0BbiR-Ww" visibility="public" type="_7dZ6F3vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6GnvVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ6HHvVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ6HXvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7dZ6HnvVEe2fev0BbiR-Ww" name="ArticleVisitor">
+      <ownedAttribute xmi:id="_7dZ6H3vVEe2fev0BbiR-Ww" name="parent" visibility="public" type="_7dZ543vVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6IXvVEe2fev0BbiR-Ww"/>
+      <ownedAttribute xmi:id="_7dZ6IHvVEe2fev0BbiR-Ww" name="visits" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7dZ6IXvVEe2fev0BbiR-Ww" memberEnd="_7dZ6H3vVEe2fev0BbiR-Ww _7dZ6InvVEe2fev0BbiR-Ww">
+      <ownedEnd xmi:id="_7dZ6InvVEe2fev0BbiR-Ww" visibility="public" type="_7dZ6HnvVEe2fev0BbiR-Ww" isUnique="false" association="_7dZ6IXvVEe2fev0BbiR-Ww">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dZ6I3vVEe2fev0BbiR-Ww" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dZ6JHvVEe2fev0BbiR-Ww"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_7fvcMHvVEe2fev0BbiR-Ww">
+      <eAnnotations xmi:id="_7f0UsHvVEe2fev0BbiR-Ww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.xmi#_7e2rZ3vVEe2fev0BbiR-Ww"/>
+      </eAnnotations>
+      <appliedProfile href="JavaExtensions.profile.xmi#_7e2rYHvVEe2fev0BbiR-Ww"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaPackage xmi:id="_7f6bUHvVEe2fev0BbiR-Ww" base_Package="_7dZS0HvVEe2fev0BbiR-Ww"/>
+</xmi:XMI>

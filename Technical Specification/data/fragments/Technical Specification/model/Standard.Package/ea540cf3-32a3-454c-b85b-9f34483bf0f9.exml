@@ -24,6 +24,9 @@
         <COMPID name="ArticleRating" mc="Standard.Class" uid="4a93d098-d30c-4d16-9ba7-da3284f2ae7c"/>
         <COMPID name="ArticleVisitor" mc="Standard.Class" uid="c6448e2b-0f93-4077-9338-eb84ed2b3e05"/>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
       <COMP relation="Product">
         <COMPID name="Article class diagram" mc="Standard.ClassDiagram" uid="d78c8ab4-42cb-4cc9-a735-c88f158f907c"/>
       </COMP>

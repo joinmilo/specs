@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OfferTranslateable" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DealTranslatable" version="4">
   <OBJECT>
-    <ID name="OfferTranslateable" mc="Standard.Class" uid="2730c0df-1cb8-4130-b2c9-d5dfd8a3dccf"/>
+    <ID name="DealTranslatable" mc="Standard.Class" uid="2730c0df-1cb8-4130-b2c9-d5dfd8a3dccf"/>
     <PID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[OfferTranslateable]]></ATT>
+      <ATT name="Name"><![CDATA[DealTranslatable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -85,7 +85,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Offer" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
+              <ID name="Deal" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

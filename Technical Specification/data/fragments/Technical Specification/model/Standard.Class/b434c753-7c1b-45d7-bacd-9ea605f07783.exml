@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Offer" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deal" version="4">
   <OBJECT>
-    <ID name="Offer" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
+    <ID name="Deal" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
     <PID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Offer]]></ATT>
+      <ATT name="Name"><![CDATA[Deal]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -173,7 +173,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="OfferCategory" mc="Standard.Class" uid="5c95a60c-5faf-42a7-977b-e76a35feaaeb"/>
+              <ID name="DealCategory" mc="Standard.Class" uid="5c95a60c-5faf-42a7-977b-e76a35feaaeb"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

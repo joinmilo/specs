@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Offer" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deal" version="4">
   <OBJECT>
-    <ID name="Offer" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
+    <ID name="Deal" mc="Standard.Package" uid="2f512ca1-441d-4d05-bd35-bd41b0a1aaac"/>
     <PID name="Feature" mc="Standard.Package" uid="05ba4add-9351-4990-bc77-38fefe74d959"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,16 +9,16 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Offer]]></ATT>
+      <ATT name="Name"><![CDATA[Deal]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="OfferCategory" mc="Standard.Class" uid="5c95a60c-5faf-42a7-977b-e76a35feaaeb"/>
-        <COMPID name="OfferCategoryTranslateable" mc="Standard.Class" uid="a13b4b15-78c7-4069-8e6a-5b6eb3b98b57"/>
-        <COMPID name="Offer" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
-        <COMPID name="OfferTranslateable" mc="Standard.Class" uid="2730c0df-1cb8-4130-b2c9-d5dfd8a3dccf"/>
-        <COMPID name="OfferVisitor" mc="Standard.Class" uid="ef8b42a4-1d3e-45c2-9db0-697a82fea9f4"/>
+        <COMPID name="DealCategory" mc="Standard.Class" uid="5c95a60c-5faf-42a7-977b-e76a35feaaeb"/>
+        <COMPID name="DealCategoryTranslatable" mc="Standard.Class" uid="a13b4b15-78c7-4069-8e6a-5b6eb3b98b57"/>
+        <COMPID name="Deal" mc="Standard.Class" uid="b434c753-7c1b-45d7-bacd-9ea605f07783"/>
+        <COMPID name="DealTranslatable" mc="Standard.Class" uid="2730c0df-1cb8-4130-b2c9-d5dfd8a3dccf"/>
+        <COMPID name="DealVisitor" mc="Standard.Class" uid="ef8b42a4-1d3e-45c2-9db0-697a82fea9f4"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Search/Offer Class diagram" mc="Standard.ClassDiagram" uid="cadf113f-1918-4352-afe7-b1c67178096b"/>

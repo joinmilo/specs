@@ -23,9 +23,7 @@
         <COMPID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
         <COMPID name="FeatureTranslatable" mc="Standard.Class" uid="adeaf60d-0288-4ff8-9a0e-e11012f347ee"/>
         <COMPID name="ThemeVariable" mc="Standard.Class" uid="a4ce3070-9f92-4e8b-a83d-962cc4455445"/>
-        <COMPID name="Landing" mc="Standard.Class" uid="fb7b3734-7641-4999-b65b-e767691635af"/>
-        <COMPID name="LandingTranslatable" mc="Standard.Class" uid="3c31fa98-7590-4a99-95c4-83f9da120580"/>
-        <COMPID name="LandingFeature" mc="Standard.Class" uid="3febc34f-14de-4a12-8a91-67abd39099ad"/>
+        <COMPID name="PageFeature" mc="Standard.Class" uid="3febc34f-14de-4a12-8a91-67abd39099ad"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="CMS class diagram" mc="Standard.ClassDiagram" uid="92f47040-afea-4da6-829e-6750ae9da975"/>

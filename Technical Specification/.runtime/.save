@@ -1,28 +1,5 @@
-#Mon Dec 19 17:53:05 CET 2022
-org.modelio.app.diagram.editor.OpenedDiagrams13='UserContext event Class diagram' {9f094f01-ab61-4c03-bf2c-a31141de07a4} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams5='base Class diagram' {f42d6c00-5672-4da9-a0b0-49961bdb66bc} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams12='Organisation relation class diagram' {c001040f-7157-4e33-bc4e-36e4241b07b7} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams4='Language Class diagram' {96d8cb0f-1ccf-4408-ba8b-33f2fe5accc7} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams11='Organisation base class diagram' {59a4204c-1ff4-4a85-b2c7-2181a0b881c4} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams3='User Class diagram' {eecafaea-74c1-4064-a04b-3f94446598e2} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams10='UserContext organisation Class diagram' {17cfa170-1d66-4408-808a-76ab97aaa9b7} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Article class diagram' {d78c8ab4-42cb-4cc9-a735-c88f158f907c} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='event relation class diagram' {7528357f-4719-4e40-8927-bdefe7e0cb71} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='Event base class diagram' {fdf712af-4200-492d-92bd-5bc5d2e60ca5} Standard.ClassDiagram
+#Fri Dec 23 08:27:24 CET 2022
+org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
-org.modelio.app.diagram.editor.OpenedDiagrams22='Developer Class diagram' {b88ec007-71f4-4989-aee6-da91fabd8a85} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams21='Contest class diagram' {122fccbe-4394-49a0-9fd3-832fde68c7c3} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams20='UserContext article class diagram' {899d90f8-6e88-4199-a7d5-b756eddf0ae2} Standard.ClassDiagram
-org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams19='Form class diagram' {54a30d2a-656a-41f0-a096-4aa866109a63} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams18='Survey translatable class diagram' {dce86a2f-1b1d-4811-933e-a15d3404f142} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams17='Survey class diagram' {49ef87fb-31f6-4a6d-8a23-4ac9d67aa39d} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams9='UserContext base class diagram' {3e57c40e-0fb3-43f7-9cde-8a0d18a44af0} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams16='CMS class diagram' {92f47040-afea-4da6-829e-6750ae9da975} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams8='Messaging class diagram' {4dd3772f-5157-4140-a574-d13a3f7c0790} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams15='Visitor class diagram' {71c73270-c472-435c-bf81-5094b4c6c663} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams7='Search/Offer Class diagram' {cadf113f-1918-4352-afe7-b1c67178096b} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams14='SocialMedia class diagram' {58c75d57-de3a-4960-9693-2eecfbe29e45} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams6='address Class diagram' {2f979994-c728-4dea-ab02-3c482f00d830} Standard.ClassDiagram

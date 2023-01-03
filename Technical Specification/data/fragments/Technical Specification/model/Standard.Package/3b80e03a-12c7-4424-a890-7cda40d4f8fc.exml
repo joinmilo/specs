@@ -20,6 +20,8 @@
         <COMPID name="MessageTemplate" mc="Standard.Class" uid="229ff143-fad1-4f43-9aa8-f9cdbd25d5b9"/>
         <COMPID name="MessageTemplateTranslatable" mc="Standard.Class" uid="8b261f5f-0d61-47d4-a74d-3a93d9b1d9b0"/>
         <COMPID name="Subscription" mc="Standard.Class" uid="30ffe7a9-e31b-4dc8-99d0-1a4c8ec5070e"/>
+        <COMPID name="MessageDefnitionTranslatable" mc="Standard.Class" uid="9cfd4396-57a6-435f-8384-ed332e1aeb03"/>
+        <COMPID name="NotificationTranslatable" mc="Standard.Class" uid="2b816fd3-7d88-4fb6-bb0c-33205946cd96"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Messaging class diagram" mc="Standard.ClassDiagram" uid="4dd3772f-5157-4140-a574-d13a3f7c0790"/>

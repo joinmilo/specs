@@ -1,7 +1,10 @@
-#Fri Dec 23 14:06:06 CET 2022
-org.modelio.app.diagram.editor.OpenedDiagrams1='base Class diagram' {f42d6c00-5672-4da9-a0b0-49961bdb66bc} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='CMS class diagram' {92f47040-afea-4da6-829e-6750ae9da975} Standard.ClassDiagram
-org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
-org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+#Tue Jan 03 11:19:43 CET 2023
+org.modelio.app.diagram.editor.OpenedDiagrams4='UserContext base class diagram' {3e57c40e-0fb3-43f7-9cde-8a0d18a44af0} Standard.ClassDiagram
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.diagram.editor.OpenedDiagrams3='SocialMedia class diagram' {58c75d57-de3a-4960-9693-2eecfbe29e45} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='address Class diagram' {2f979994-c728-4dea-ab02-3c482f00d830} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Messaging class diagram' {4dd3772f-5157-4140-a574-d13a3f7c0790} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='CMS class diagram' {92f47040-afea-4da6-829e-6750ae9da975} Standard.ClassDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom

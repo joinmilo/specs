@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MenuTranslatable" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MenuItemTranslatable" version="4">
   <OBJECT>
-    <ID name="MenuTranslatable" mc="Standard.Class" uid="0bfb08eb-5754-4677-8fa1-c285e421bb9a"/>
+    <ID name="MenuItemTranslatable" mc="Standard.Class" uid="0bfb08eb-5754-4677-8fa1-c285e421bb9a"/>
     <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[MenuTranslatable]]></ATT>
+      <ATT name="Name"><![CDATA[MenuItemTranslatable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -122,7 +122,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Menu" mc="Standard.Class" uid="3b01e0c0-f7ca-45e9-b981-7f92c3a03817"/>
+              <ID name="MenuItem" mc="Standard.Class" uid="393fd512-d30c-49e8-b93c-7c9edc330966"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

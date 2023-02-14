@@ -24,6 +24,7 @@
         <COMPID name="FeatureTranslatable" mc="Standard.Class" uid="adeaf60d-0288-4ff8-9a0e-e11012f347ee"/>
         <COMPID name="ThemeVariable" mc="Standard.Class" uid="a4ce3070-9f92-4e8b-a83d-962cc4455445"/>
         <COMPID name="PageFeature" mc="Standard.Class" uid="3febc34f-14de-4a12-8a91-67abd39099ad"/>
+        <COMPID name="Theme" mc="Standard.Class" uid="3e533c9c-339d-4934-8efa-834b775c0bba"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="CMS class diagram" mc="Standard.ClassDiagram" uid="92f47040-afea-4da6-829e-6750ae9da975"/>

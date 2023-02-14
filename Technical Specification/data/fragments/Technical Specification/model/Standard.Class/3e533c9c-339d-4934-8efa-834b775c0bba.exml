@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ThemeVariable" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Theme" version="4">
   <OBJECT>
-    <ID name="ThemeVariable" mc="Standard.Class" uid="a4ce3070-9f92-4e8b-a83d-962cc4455445"/>
+    <ID name="Theme" mc="Standard.Class" uid="3e533c9c-339d-4934-8efa-834b775c0bba"/>
     <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ThemeVariable]]></ATT>
+      <ATT name="Name"><![CDATA[Theme]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="key" mc="Standard.Attribute" uid="bdb31d4e-fa87-4b96-9b5b-b9acffc44c4f"/>
+          <ID name="name" mc="Standard.Attribute" uid="f4c891ac-bfff-4081-8290-117d52ce57dc"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,31 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[key]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="value" mc="Standard.Attribute" uid="96b419dc-95be-4b51-ad7d-34417b56304e"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[value]]></ATT>
+            <ATT name="Name"><![CDATA[name]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -67,7 +43,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="theme" mc="Standard.AssociationEnd" uid="6b72a250-1ab9-4304-8f92-8f32d4bf5768"/>
+          <ID name="logo" mc="Standard.AssociationEnd" uid="eddb05da-b0f5-4e78-9ad0-2c4302c80a2d"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -80,16 +56,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[theme]]></ATT>
+            <ATT name="Name"><![CDATA[logo]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Theme" mc="Standard.Class" uid="3e533c9c-339d-4934-8efa-834b775c0bba"/>
+              <ID name="Media" mc="Standard.Class" uid="8f43cfd1-5fe5-4a70-9a9f-1c559aa8f79d"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="ecde0f75-b11c-466b-8a8f-973fa0132383"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="41fc848a-0fbb-434f-8f35-a6837c1b7652"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -107,11 +83,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="theme" mc="Standard.AssociationEnd" uid="6b72a250-1ab9-4304-8f92-8f32d4bf5768"/>
+                    <COMPID name="logo" mc="Standard.AssociationEnd" uid="eddb05da-b0f5-4e78-9ad0-2c4302c80a2d"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="220703e9-5e8a-40dd-b8e1-82b324e840ea"/>
+                      <ID name="" mc="Standard.Association" uid="28699f0c-3019-4c4c-99fa-4b58e44041c1"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -123,7 +99,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="220703e9-5e8a-40dd-b8e1-82b324e840ea"/>
+              <COMPID name="" mc="Standard.Association" uid="28699f0c-3019-4c4c-99fa-4b58e44041c1"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UserContextTranslatable" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ContestVisitor" version="4">
   <OBJECT>
-    <ID name="UserContextTranslatable" mc="Standard.Class" uid="afb1ad62-0c4b-4267-99c3-9324cdde3b89"/>
-    <PID name="UserContext" mc="Standard.Package" uid="a491c79f-9569-4b90-a063-f46d3ddfeb37"/>
+    <ID name="ContestVisitor" mc="Standard.Class" uid="87c1f5fd-e154-4d2c-adb3-7de3f01d8b2d"/>
+    <PID name="Contest" mc="Standard.Package" uid="b5c9c28f-6f75-4f6b-8009-02d1bf2eff4d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,39 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[UserContextTranslatable]]></ATT>
+      <ATT name="Name"><![CDATA[ContestVisitor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedAttribute">
-        <OBJECT>
-          <ID name="description" mc="Standard.Attribute" uid="21d97c84-26bf-4744-92aa-75bb0ca89bbe"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[description]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="language" mc="Standard.AssociationEnd" uid="9a54adc8-956c-46c0-99dc-163f1ffbd61f"/>
+          <ID name="visitor" mc="Standard.AssociationEnd" uid="69d5957b-a811-4afd-b8c7-eefdba133c8f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -56,16 +30,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[language]]></ATT>
+            <ATT name="Name"><![CDATA[visitor]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Language" mc="Standard.Class" uid="3b71d4b1-88f4-44dd-bc21-4ed30cae2b5f"/>
+              <ID name="Visitor" mc="Standard.Class" uid="072f625e-88e9-4f97-be84-4cfbe13d3873"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="0cb11703-d2ba-43ff-9472-624cdad548ec"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="471aa725-0ede-4397-a7a4-8d91b0da9cb2"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -83,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="language" mc="Standard.AssociationEnd" uid="9a54adc8-956c-46c0-99dc-163f1ffbd61f"/>
+                    <COMPID name="visitor" mc="Standard.AssociationEnd" uid="69d5957b-a811-4afd-b8c7-eefdba133c8f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="f05f3571-3445-4cce-b4bf-9334b3533865"/>
+                      <ID name="" mc="Standard.Association" uid="fd327cd7-b491-4ffb-be16-210612b2d205"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,12 +73,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="f05f3571-3445-4cce-b4bf-9334b3533865"/>
+              <COMPID name="" mc="Standard.Association" uid="fd327cd7-b491-4ffb-be16-210612b2d205"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="parent" mc="Standard.AssociationEnd" uid="b4229bac-5e1d-471a-8109-d51f5ad978d2"/>
+          <ID name="parent" mc="Standard.AssociationEnd" uid="072ad2d1-7523-4368-8b27-10ada58cc0a0"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -122,11 +96,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="UserContext" mc="Standard.Class" uid="145e37b0-bff5-4bd2-a268-b975a74aaed1"/>
+              <ID name="Contest" mc="Standard.Class" uid="40034b52-6156-448e-a2c4-2482dee92f0b"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="2a0c95b9-3d17-4ba4-9ad1-7b907b9bc616"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="b8618b32-1e03-4fad-9bf9-2ca939ff4aa5"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -135,7 +109,7 @@
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -144,11 +118,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="parent" mc="Standard.AssociationEnd" uid="b4229bac-5e1d-471a-8109-d51f5ad978d2"/>
+                    <COMPID name="parent" mc="Standard.AssociationEnd" uid="072ad2d1-7523-4368-8b27-10ada58cc0a0"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="1710de62-791e-4c37-a752-b9273fd3f528"/>
+                      <ID name="" mc="Standard.Association" uid="49ace14c-50d9-45cf-b45f-41c6f53c5c5a"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -160,23 +134,8 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="1710de62-791e-4c37-a752-b9273fd3f528"/>
+              <COMPID name="" mc="Standard.Association" uid="49ace14c-50d9-45cf-b45f-41c6f53c5c5a"/>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="31842c6f-6f08-45da-99cf-0e63224d3c25"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Translatable" mc="Standard.Class" uid="757bd89f-ac08-4a69-99fd-540aa475439b"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

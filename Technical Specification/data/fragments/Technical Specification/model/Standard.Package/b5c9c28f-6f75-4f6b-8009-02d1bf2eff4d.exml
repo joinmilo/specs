@@ -22,6 +22,7 @@
         <COMPID name="ContestParticipationTranslatable" mc="Standard.Class" uid="230c6011-1338-4dbe-be39-31a3b54b9485"/>
         <COMPID name="ContestVote" mc="Standard.Class" uid="cb99609f-5d21-4d56-b288-56e23ca7ef6e"/>
         <COMPID name="ContestState" mc="Standard.Class" uid="9f49e2dd-7d9e-4064-9978-2385c17ec2be"/>
+        <COMPID name="ContestVisitor" mc="Standard.Class" uid="87c1f5fd-e154-4d2c-adb3-7de3f01d8b2d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Contest class diagram" mc="Standard.ClassDiagram" uid="122fccbe-4394-49a0-9fd3-832fde68c7c3"/>

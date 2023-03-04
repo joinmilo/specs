@@ -1,6 +1,14 @@
-#Tue Feb 14 15:07:55 CET 2023
+#Thu Mar 02 18:26:49 CET 2023
+org.modelio.app.diagram.editor.OpenedDiagrams4='Contest class diagram' {122fccbe-4394-49a0-9fd3-832fde68c7c3} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Article class diagram' {d78c8ab4-42cb-4cc9-a735-c88f158f907c} Standard.ClassDiagram
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.diagram.editor.OpenedDiagrams2='Organisation base class diagram' {59a4204c-1ff4-4a85-b2c7-2181a0b881c4} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Event base class diagram' {fdf712af-4200-492d-92bd-5bc5d2e60ca5} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='CMS class diagram' {92f47040-afea-4da6-829e-6750ae9da975} Standard.ClassDiagram
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.diagram.editor.OpenedDiagrams8='SocialMedia class diagram' {58c75d57-de3a-4960-9693-2eecfbe29e45} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='UserContext event Class diagram' {9f094f01-ab61-4c03-bf2c-a31141de07a4} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='UserContext base class diagram' {3e57c40e-0fb3-43f7-9cde-8a0d18a44af0} Standard.ClassDiagram
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams5='Search/Offer Class diagram' {cadf113f-1918-4352-afe7-b1c67178096b} Standard.ClassDiagram

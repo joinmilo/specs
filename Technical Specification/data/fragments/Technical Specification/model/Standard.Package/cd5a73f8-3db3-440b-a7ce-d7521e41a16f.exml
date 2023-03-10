@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Feedback" version="4">
+  <OBJECT>
+    <ID name="Feedback" mc="Standard.Package" uid="cd5a73f8-3db3-440b-a7ce-d7521e41a16f"/>
+    <PID name="Base" mc="Standard.Package" uid="c8957489-7b91-4c9f-b6db-31c3761d2078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Feedback]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Feedback" mc="Standard.Class" uid="67d9aed9-db26-49c8-b741-7686448ee35a"/>
+        <COMPID name="FeedbackType" mc="Standard.Class" uid="0d46705d-d445-4490-9f04-2296b8617dbf"/>
+        <COMPID name="FeedbackTypeTranslatable" mc="Standard.Class" uid="3093dcd5-721f-4c89-911d-11bf91166362"/>
+        <COMPID name="FeedbackTranslatable" mc="Standard.Class" uid="f5346486-253c-4463-8148-f058ed43d490"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Feedback Class diagram" mc="Standard.ClassDiagram" uid="4e794f07-4ebb-4c93-a1c1-890fc793502f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

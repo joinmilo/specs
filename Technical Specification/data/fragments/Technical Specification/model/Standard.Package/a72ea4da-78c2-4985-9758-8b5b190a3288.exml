@@ -15,7 +15,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="SocialMedia" mc="Standard.Class" uid="0535d325-15b7-4f0a-979f-5ab6205ca0a1"/>
-        <COMPID name="AppStore" mc="Standard.Class" uid="40e324cf-c237-4672-b4c6-891041000774"/>
+        <COMPID name="App" mc="Standard.Class" uid="40e324cf-c237-4672-b4c6-891041000774"/>
+        <COMPID name="AppPlatform" mc="Standard.Class" uid="14d69666-c5ef-422d-b603-18767ee2c7fe"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="SocialMedia class diagram" mc="Standard.ClassDiagram" uid="58c75d57-de3a-4960-9693-2eecfbe29e45"/>

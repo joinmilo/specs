@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Structure" version="4">
+  <OBJECT>
+    <ID name="Structure" mc="Standard.Package" uid="41f6a7d4-6525-4774-b0b0-17dca963b856"/>
+    <PID name="Model" mc="Standard.Package" uid="a4251b50-3741-4739-a340-9b8705319f4c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Structure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CoreModule" mc="Standard.Node" uid="406c9de0-f454-4664-8e34-874d1b4d4569"/>
+        <COMPID name="Shared" mc="Standard.Node" uid="d3a5b566-729a-4d67-8452-83eb83392701"/>
+        <COMPID name="PortalModule" mc="Standard.Node" uid="01dae4d6-9eed-48e5-a8d7-7a9d11142b61"/>
+        <COMPID name="AdminModule" mc="Standard.Node" uid="813bbfd7-7cf3-4bdb-b06a-df37659e1839"/>
+        <COMPID name="UserModule" mc="Standard.Node" uid="0dd3d000-8854-4b5e-bbaa-0b0dc2b33d3d"/>
+        <COMPID name="PortalShared" mc="Standard.Node" uid="453add7a-2caf-44fa-ac8b-23f02e16a9a9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Structure Deployment diagram" mc="Standard.DeploymentDiagram" uid="666cf36b-81c4-4252-88ed-9640aa38b904"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

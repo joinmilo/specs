@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CoreModule" version="4">
+  <OBJECT>
+    <ID name="CoreModule" mc="Standard.Node" uid="406c9de0-f454-4664-8e34-874d1b4d4569"/>
+    <PID name="Structure" mc="Standard.Package" uid="41f6a7d4-6525-4774-b0b0-17dca963b856"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CoreModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

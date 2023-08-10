@@ -16,7 +16,6 @@
       <COMP relation="OwnedElement">
         <COMPID name="EmailVerification" mc="Standard.Class" uid="f3a19b5c-c43c-49f7-8bc2-bc7b297bef70"/>
         <COMPID name="PasswordReset" mc="Standard.Class" uid="b783e4c0-5321-4133-9f69-0b0c572852f9"/>
-        <COMPID name="Role" mc="Standard.Class" uid="8a209316-5f59-4bf2-a03f-1bb9a21162ce"/>
         <COMPID name="User" mc="Standard.Class" uid="e57ae84e-f7f0-453b-b262-27f3e951101d"/>
       </COMP>
       <COMP relation="Product">

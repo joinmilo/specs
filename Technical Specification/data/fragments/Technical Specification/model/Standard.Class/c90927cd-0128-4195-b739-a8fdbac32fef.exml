@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Role" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RoleApplication" version="4">
   <OBJECT>
-    <ID name="Role" mc="Standard.Class" uid="8a209316-5f59-4bf2-a03f-1bb9a21162ce"/>
+    <ID name="RoleApplication" mc="Standard.Class" uid="c90927cd-0128-4195-b739-a8fdbac32fef"/>
     <PID name="Role" mc="Standard.Package" uid="d055e635-d1e1-4760-a24e-3f9835d01185"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,17 +11,16 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Role]]></ATT>
+      <ATT name="Name"><![CDATA[RoleApplication]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedAttribute">
+      <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="code" mc="Standard.Attribute" uid="8048d6ed-3286-4b53-bf04-55a7b99debda"/>
+          <ID name="privilege" mc="Standard.AssociationEnd" uid="be3aa85d-19bd-437c-8fc8-a39b215282f5"/>
           <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
@@ -31,32 +30,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[code]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="OwnedEnd">
-        <OBJECT>
-          <ID name="privileges" mc="Standard.AssociationEnd" uid="9311dd46-1094-4d82-b3e5-4341698db5bc"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[privileges]]></ATT>
+            <ATT name="Name"><![CDATA[privilege]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -65,7 +39,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="bf09e634-90a9-4325-865f-0065c7524a0b"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="f17e86ed-1223-4130-a3cd-b0dc81629a10"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -83,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="privileges" mc="Standard.AssociationEnd" uid="9311dd46-1094-4d82-b3e5-4341698db5bc"/>
+                    <COMPID name="privilege" mc="Standard.AssociationEnd" uid="be3aa85d-19bd-437c-8fc8-a39b215282f5"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="13791ef6-e0f6-478c-b653-e637ee917f55"/>
+                      <ID name="" mc="Standard.Association" uid="ab9a774c-9139-461a-a721-6600804e19ec"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,7 +73,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="13791ef6-e0f6-478c-b653-e637ee917f55"/>
+              <COMPID name="" mc="Standard.Association" uid="ab9a774c-9139-461a-a721-6600804e19ec"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

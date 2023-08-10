@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Role" version="4">
+  <OBJECT>
+    <ID name="Role" mc="Standard.Package" uid="d055e635-d1e1-4760-a24e-3f9835d01185"/>
+    <PID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Role]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Role" mc="Standard.Class" uid="8a209316-5f59-4bf2-a03f-1bb9a21162ce"/>
+        <COMPID name="RoleApplication" mc="Standard.Class" uid="c90927cd-0128-4195-b739-a8fdbac32fef"/>
+        <COMPID name="RoleTranslatable" mc="Standard.Class" uid="a24c3360-bde9-429b-bd23-fe7e191d018d"/>
+        <COMPID name="RoleApplicationTranslatable" mc="Standard.Class" uid="0db2c411-f461-48fa-a4b3-87daf2d3d4cf"/>
+        <COMPID name="Privilege" mc="Standard.Class" uid="6ffb8e7d-3cd8-4a9d-830a-7dc1409c1e41"/>
+        <COMPID name="RolePrivilegeTranslatable" mc="Standard.Class" uid="a9ec3e4d-f199-48a1-87dd-af6dcc06099e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Role Class diagram" mc="Standard.ClassDiagram" uid="23378a86-0ee9-40cd-8486-38834e1aa57a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

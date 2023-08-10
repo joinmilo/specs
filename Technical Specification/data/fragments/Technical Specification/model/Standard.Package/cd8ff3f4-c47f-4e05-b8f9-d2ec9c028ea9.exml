@@ -19,6 +19,7 @@
         <COMPID name="Messaging" mc="Standard.Package" uid="3b80e03a-12c7-4424-a890-7cda40d4f8fc"/>
         <COMPID name="Language" mc="Standard.Package" uid="f183dd18-42be-4a24-8c6a-1d5bcd11e0f4"/>
         <COMPID name="Visitor" mc="Standard.Package" uid="77280793-d02b-418f-814e-52733a1ac6c8"/>
+        <COMPID name="Role" mc="Standard.Package" uid="d055e635-d1e1-4760-a24e-3f9835d01185"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

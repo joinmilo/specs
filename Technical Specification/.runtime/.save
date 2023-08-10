@@ -1,4 +1,4 @@
-#Fri Aug 04 18:08:45 CEST 2023
+#Thu Aug 10 15:49:39 CEST 2023
 org.modelio.app.diagram.editor.OpenedDiagrams13='event relation class diagram' {7528357f-4719-4e40-8927-bdefe7e0cb71} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams5='Search/Offer Class diagram' {cadf113f-1918-4352-afe7-b1c67178096b} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams12='Survey translatable class diagram' {dce86a2f-1b1d-4811-933e-a15d3404f142} Standard.ClassDiagram
@@ -13,6 +13,7 @@ org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///hom
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.module.propertytab.JavaDesigner\ v5.0.00\ GModule\ @file\:///home/timon/.modelio/5.1/modules/JavaDesigner_5.0.00/JavaDesigner_5.0.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams18='Role Class diagram' {23378a86-0ee9-40cd-8486-38834e1aa57a} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams17='base Class diagram' {f42d6c00-5672-4da9-a0b0-49961bdb66bc} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams9='User Class diagram' {eecafaea-74c1-4064-a04b-3f94446598e2} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams16='Structure Deployment diagram' {666cf36b-81c4-4252-88ed-9640aa38b904} Standard.DeploymentDiagram

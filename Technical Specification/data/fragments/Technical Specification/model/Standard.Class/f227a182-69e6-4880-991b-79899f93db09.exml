@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PageFeature" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PageAttributeTranslatable" version="4">
   <OBJECT>
-    <ID name="PageFeature" mc="Standard.Class" uid="3febc34f-14de-4a12-8a91-67abd39099ad"/>
-    <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
+    <ID name="PageAttributeTranslatable" mc="Standard.Class" uid="f227a182-69e6-4880-991b-79899f93db09"/>
+    <PID name="Page" mc="Standard.Package" uid="ede30192-272e-4c50-8640-87b8fca8728d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PageFeature]]></ATT>
+      <ATT name="Name"><![CDATA[PageAttributeTranslatable]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="order" mc="Standard.Attribute" uid="3e2863a3-15f8-4a88-9797-7520f1bb33bb"/>
+          <ID name="content" mc="Standard.Attribute" uid="7596dffb-5ab6-4ab6-9b14-f0f4e9da7734"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,19 +31,19 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[order]]></ATT>
+            <ATT name="Name"><![CDATA[content]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="feature" mc="Standard.AssociationEnd" uid="e52e348d-ad76-4b97-948b-070684a14169"/>
+          <ID name="parent" mc="Standard.AssociationEnd" uid="ea2302cc-7773-489a-bac1-82c79623a657"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -56,16 +56,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[feature]]></ATT>
+            <ATT name="Name"><![CDATA[parent]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Feature" mc="Standard.Class" uid="5449fbf4-0652-4b39-87d2-f27b2f5c6e6c"/>
+              <ID name="PageAttribute" mc="Standard.Class" uid="3a842a87-d556-4f70-9472-3f6c8067fbef"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="dfebca21-3e33-4053-b6d4-4145c03adf54"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="a2964dab-17c4-4bf0-818f-800bf65feec8"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -83,11 +83,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="feature" mc="Standard.AssociationEnd" uid="e52e348d-ad76-4b97-948b-070684a14169"/>
+                    <COMPID name="parent" mc="Standard.AssociationEnd" uid="ea2302cc-7773-489a-bac1-82c79623a657"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="ab327bc5-3d22-4612-8bbc-900528cf6847"/>
+                      <ID name="" mc="Standard.Association" uid="0d30e87d-6e43-4ed1-a54d-6ef62552780b"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,12 +99,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="ab327bc5-3d22-4612-8bbc-900528cf6847"/>
+              <COMPID name="" mc="Standard.Association" uid="0d30e87d-6e43-4ed1-a54d-6ef62552780b"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="page" mc="Standard.AssociationEnd" uid="b55eaaba-6bd8-4cb8-977f-934424669e37"/>
+          <ID name="language" mc="Standard.AssociationEnd" uid="959a6813-79a8-4e08-9e6d-02a39448387f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -117,16 +117,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[page]]></ATT>
+            <ATT name="Name"><![CDATA[language]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Page" mc="Standard.Class" uid="e8d0d451-0af5-435d-8e69-ecff22eb37b4"/>
+              <ID name="Language" mc="Standard.Class" uid="3b71d4b1-88f4-44dd-bc21-4ed30cae2b5f"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="f5e7fb06-18b0-44bb-9872-dbdfcb93a07e"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="232ee2bf-b357-4d06-b59b-1e4fc2c831be"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -144,11 +144,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="page" mc="Standard.AssociationEnd" uid="b55eaaba-6bd8-4cb8-977f-934424669e37"/>
+                    <COMPID name="language" mc="Standard.AssociationEnd" uid="959a6813-79a8-4e08-9e6d-02a39448387f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="7a4209df-4a1d-45ed-b5e7-43103df0dcd7"/>
+                      <ID name="" mc="Standard.Association" uid="d15e0056-b88d-4872-b9a7-ff4a5b58811c"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -160,7 +160,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="7a4209df-4a1d-45ed-b5e7-43103df0dcd7"/>
+              <COMPID name="" mc="Standard.Association" uid="d15e0056-b88d-4872-b9a7-ff4a5b58811c"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

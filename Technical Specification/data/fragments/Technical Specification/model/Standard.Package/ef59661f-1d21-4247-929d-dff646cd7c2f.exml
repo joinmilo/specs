@@ -14,20 +14,17 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Feature" mc="Standard.Class" uid="5449fbf4-0652-4b39-87d2-f27b2f5c6e6c"/>
-        <COMPID name="Page" mc="Standard.Class" uid="e8d0d451-0af5-435d-8e69-ecff22eb37b4"/>
-        <COMPID name="PageTranslatable" mc="Standard.Class" uid="377d7a62-1179-46b6-96f3-f6adcdd06926"/>
         <COMPID name="MenuItemTranslatable" mc="Standard.Class" uid="0bfb08eb-5754-4677-8fa1-c285e421bb9a"/>
         <COMPID name="MenuItem" mc="Standard.Class" uid="393fd512-d30c-49e8-b93c-7c9edc330966"/>
-        <COMPID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
-        <COMPID name="FeatureTranslatable" mc="Standard.Class" uid="adeaf60d-0288-4ff8-9a0e-e11012f347ee"/>
+        <COMPID name="PluginTranslatable" mc="Standard.Class" uid="adeaf60d-0288-4ff8-9a0e-e11012f347ee"/>
         <COMPID name="ThemeVariable" mc="Standard.Class" uid="a4ce3070-9f92-4e8b-a83d-962cc4455445"/>
-        <COMPID name="PageFeature" mc="Standard.Class" uid="3febc34f-14de-4a12-8a91-67abd39099ad"/>
         <COMPID name="Theme" mc="Standard.Class" uid="3e533c9c-339d-4934-8efa-834b775c0bba"/>
         <COMPID name="Configuration" mc="Standard.Class" uid="acdc47df-a7d3-4841-8459-39bd59510860"/>
+        <COMPID name="Page" mc="Standard.Package" uid="ede30192-272e-4c50-8640-87b8fca8728d"/>
+        <COMPID name="Plugin" mc="Standard.Class" uid="102cfa6b-40be-4198-8ac0-f0c33b573511"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="CMS class diagram" mc="Standard.ClassDiagram" uid="92f47040-afea-4da6-829e-6750ae9da975"/>
+        <COMPID name="CMS Base class diagram" mc="Standard.ClassDiagram" uid="92f47040-afea-4da6-829e-6750ae9da975"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

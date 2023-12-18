@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PageVisitor" version="4">
   <OBJECT>
     <ID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
-    <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
+    <PID name="Page" mc="Standard.Package" uid="ede30192-272e-4c50-8640-87b8fca8728d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

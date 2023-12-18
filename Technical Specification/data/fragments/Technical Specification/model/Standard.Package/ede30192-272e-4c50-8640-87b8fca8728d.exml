@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Page" version="4">
+  <OBJECT>
+    <ID name="Page" mc="Standard.Package" uid="ede30192-272e-4c50-8640-87b8fca8728d"/>
+    <PID name="CMS" mc="Standard.Package" uid="ef59661f-1d21-4247-929d-dff646cd7c2f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Page]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PageEmbedding" mc="Standard.Class" uid="14022835-49a9-461b-ae32-d2acaf8f1fd9"/>
+        <COMPID name="PageEmbeddingType" mc="Standard.Class" uid="abb36194-cdc7-43c6-ba02-c6e2dd9614be"/>
+        <COMPID name="PageAttributeTranslatable" mc="Standard.Class" uid="f227a182-69e6-4880-991b-79899f93db09"/>
+        <COMPID name="PageEmbeddingTypeTranslatable" mc="Standard.Class" uid="08986356-60aa-44a6-8422-34aee668a5a3"/>
+        <COMPID name="PageAttributeType" mc="Standard.Class" uid="04d023e7-ee8d-4358-9418-b9286a68cee2"/>
+        <COMPID name="PageAttribute" mc="Standard.Class" uid="3a842a87-d556-4f70-9472-3f6c8067fbef"/>
+        <COMPID name="Page" mc="Standard.Class" uid="e8d0d451-0af5-435d-8e69-ecff22eb37b4"/>
+        <COMPID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
+        <COMPID name="PageTranslatable" mc="Standard.Class" uid="377d7a62-1179-46b6-96f3-f6adcdd06926"/>
+        <COMPID name="PageAttributeReference" mc="Standard.Class" uid="543345e6-3311-4246-8891-b2b23503e6a8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Embedding Class diagram" mc="Standard.ClassDiagram" uid="c7f916a7-4ab1-417e-9cb7-b4354f312073"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

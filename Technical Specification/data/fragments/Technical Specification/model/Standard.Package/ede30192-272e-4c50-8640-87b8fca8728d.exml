@@ -22,7 +22,6 @@
         <COMPID name="PageAttribute" mc="Standard.Class" uid="3a842a87-d556-4f70-9472-3f6c8067fbef"/>
         <COMPID name="Page" mc="Standard.Class" uid="e8d0d451-0af5-435d-8e69-ecff22eb37b4"/>
         <COMPID name="PageVisitor" mc="Standard.Class" uid="35623eb7-6f22-44d1-aaf7-2900bdb42688"/>
-        <COMPID name="PageTranslatable" mc="Standard.Class" uid="377d7a62-1179-46b6-96f3-f6adcdd06926"/>
         <COMPID name="PageAttributeReference" mc="Standard.Class" uid="543345e6-3311-4246-8891-b2b23503e6a8"/>
       </COMP>
       <COMP relation="Product">

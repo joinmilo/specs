@@ -108,13 +108,13 @@
         <OBJECT>
           <ID name="Note" mc="Infrastructure.Note" uid="86742c8c-2e6c-4545-80af-a3ba23ec0c38"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[TEXT_MEDIA
+            <ATT name="Content"><![CDATA[BOX
 EXPANSION
+HERO_SECTION
 MEDIA_SLIDER
 TEXT_BANNER
-PLUGIN
-BOX
-HERO_SECTION]]></ATT>
+TEXT_MEDIA
+PLUGIN]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[Note]]></ATT>
             <ATT name="status">1970354901745664</ATT>

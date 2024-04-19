@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Storage" version="4">
+  <OBJECT>
+    <ID name="Storage" mc="Standard.Package" uid="0a1db3c1-eb8a-4cf8-a140-85e9a4f2487d"/>
+    <PID name="Core" mc="Standard.Package" uid="cd8ff3f4-c47f-4e05-b8f9-d2ec9c028ea9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Storage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultStorageService" mc="Standard.Class" uid="b15ce277-f100-4e73-8012-1b31baefa5f6"/>
+        <COMPID name="S3StorageService" mc="Standard.Class" uid="e342e946-a88a-45e1-b2b9-cd8431efa948"/>
+        <COMPID name="StorageService" mc="Standard.Interface" uid="720139ae-a425-4cce-84a2-1fa3595afd3f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Storage Class diagram" mc="Standard.ClassDiagram" uid="2270d249-4e62-41e5-9ddd-0df904d64362"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
